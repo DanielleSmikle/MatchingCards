@@ -5,3 +5,16 @@
 // get a timer 
 
 //this is a test 
+
+
+document.addEventListener('DOMContentLoaded',() => {    //addcardchoices2times
+
+const cardChoices = [
+{
+name: 
+img:
+}
+
+
+]
+})
