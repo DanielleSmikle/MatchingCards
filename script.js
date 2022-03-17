@@ -7,12 +7,21 @@
 //this is a test 
 
 
-document.addEventListener('DOMContentLoaded',() => {    //addcardchoices2times
+document.addEventListener('DOMContentLoaded',() => {    //addcardselection2times
 
-const cardChoices = [
+const cardSelections = [
 {
-name: 
-img:
+name: 'Tommy',
+img: 'images/Tommy.png'
+},
+{
+name: 'Tommy',
+img: 'images/Tommy.png'
+},
+{
+name: 'Slice'
+img: 
+
 }
 
 
