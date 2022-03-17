@@ -1,5 +1,9 @@
+
 .pageContainer{
-    width: 750px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 15px;
+    width: 800px;
     margin: 0 auto;
 
 }
@@ -17,4 +21,32 @@
 
 * {
     border: 1px solid gold;
+}
+
+
+body {
+    margin: 0;
+    background: purple
+}
+
+.gameTitle {
+    color: fuchsia;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 75px;
+}
+
+.pageInfoCont{
+    grid-column: 1 /-1;
+}
+.pageInfo {
+    color: honeydew;
+    font-size: 25px;
+}
+
+
+.cards {
+    background-color: lavender;
+    height: 150px;
+    width: 100px;
 }
