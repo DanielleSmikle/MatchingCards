@@ -1,110 +1,86 @@
-// whiteboarding (THINGS I NEED TO DO)
-// Connect javascript to html
-// Get cards to appear on the scren 
-// find images to match/ find a theme
-// get a timer 
-
-//this is a test 
-
-
-// document.addEventListener('DOMContentLoaded',() => {    //addcardselection2times
-
-const cardSelection = [
-    {
-        name: 'Barney',
-        image: 'image/Barney.png'
-    },
-    {
-        name: 'Barney',
-        image: 'image/Barney.png'
-    },
-    {
-        name: 'Back',
-        image: 'image/Backpic.png'
-    },
-    {
-        name: 'Back',
-        image: 'image/Backpic.png'
-    },
-    {
-        name: 'Hotdog',
-        image: 'Hotdog.png'
-    },
-    {
-        name: 'Hotdog',
-        image: 'Hotdog.png'
-    },
-    {
-        name: 'Julius',
-        image: 'Julius.png'
-    },
-    {
-        name: 'Julius',
-        image: 'Julius.png'
-    },
-    {
-        name: 'Match',
-        image: 'Match.png'
-    },
-    {
-        name: 'Match',
-        image: 'Match.png'
-    },
-    {
-        name: 'Meme',
-        image: 'Meme.png'
-    },
-    {
-        name: 'Meme',
-        image: 'Meme.png'
-    },
-    {
-        name: 'Reptar',
-        image: 'Reptar.png'
-    },
-    {
-        name:'Reptar',
-        image: 'Reptar.png'
-    },
-    {
-        name: 'Rock',
-        image: 'Rock.png'
-    },
-    {
-        name: 'Rock',
-        image: 'Rock.png'
-    },
-    {
-        name: 'Slice',
-        image: 'Slice.png'
-    },
-    {
-        name: 'Slice',
-        image: 'Slice.png'
-    },
-    {
-        name: 'Tommy',
-        image: 'Tommy.png'
-    },
-    {
-        name: 'Tommy',
-        image: 'Tommy.png'
-    }
-]
-cardsList.sort( () => 0.5 -math)
-//time for the board 
-
-const grid = document.querySelector('.grid');
-
-function makeBoard() {
-    for(let i =0; i< cardSelection.length; i++) {
-        let card = document.createElement('img')
-        card.setAttribute('src', 'Images/Backpic.png');
-
-        card.setAttribute('data-id', i);
-
-        grid.appendChild(card)
-
-
-    }
-}
+document.addEventListener('DOMContentLoaded', () => {  
+    const cardSelection = [
+        {
+            name: 'back',
+        image: 'image/backpic.png'
+        },
+        {
+            name: 'back',
+            image: 'image/backpic.png'
+        },
+        {
+            name: 'barney',
+            image: 'image/barney.png'
+        },
+        {
+            name: 'barney',
+            image: 'image/barney.png'
+        },
+        {
+            name: 'hotdog',
+            image: 'image/hotdog.png'
+        },
+        {
+            name: 'hotdog',
+            image: 'image/hotdog.png'
+        },
+        {
+            name: 'julius',
+            image: 'image/julius.png'
+        },
+        {
+            name: 'julius',
+            image: 'image/julius.png'
+        },
+        {
+            name: 'match',
+            image: 'image/match.png'
+        },
+        {
+            name: 'match',
+            image: 'image/match.png'
+        },
+        {
+            name: 'meme',
+            image: 'image/meme.png'
+        },
+        {
+            name: 'meme',
+            image: 'image/meme.png'
+        },
+        {
+            name: 'reptar',
+            image: 'image/reptar.png'
+        },
+        {
+            name: 'reptar',
+            image: 'image/reptar.png'
+        },
+        {
+            name: 'rock',
+            image: 'image/rock.png'
+        },
+        {
+            name: 'rock',
+            image: 'image/rock.png'
+        },
+        {
+            name: 'slice',
+            image: 'image/slice.png'
+        },
+        {
+            name: 'slice',
+            image: 'image/slice.png'
+        },
+        {
+            name: 'tommy',
+            image: 'image/tommy.png'
+        },
+        {
+            name: 'tommy',
+            image: 'image/tommy.png'
+        }
+        
+    ]
+         
+})

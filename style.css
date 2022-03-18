@@ -15,8 +15,7 @@
     display: flex;
     flex-wrap: wrap; 
     height: 600px;
-    width: 100%;
-    border: 2px black;
+    width: 300%;
 }
 
 body {
