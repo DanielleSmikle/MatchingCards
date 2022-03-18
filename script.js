@@ -7,23 +7,86 @@
 //this is a test 
 
 
-document.addEventListener('DOMContentLoaded',() => {    //addcardselection2times
+// document.addEventListener('DOMContentLoaded',() => {    //addcardselection2times
 
-const cardSelections = [
-{
-name: 'Tommy',
-img: 'images/Tommy.png'
-},
-{
-name: 'Tommy',
-img: 'images/Tommy.png'
-},
-{
-name: 'Slice'
-img: 
+const cardSelection = [
+    {
+        name: 'Barney',
+        image: 'image/Barney.png'
+    },
+    {
+        name: 'Barney',
+        image: 'image/Barney.png'
+    },
+    {
+        name: 'Back',
+        image: 'image/Backpic.png'
+    },
+    {
+        name: 'Back',
+        image: 'image/Backpic.png'
+    },
+    {
+        name: 'Hotdog',
+        image: 'Hotdog.png'
+    },
+    {
+        name: 'Hotdog',
+        image: 'Hotdog.png'
+    },
+    {
+        name: 'Julius',
+        image: 'Julius.png'
+    },
+    {
+        name: 'Julius',
+        image: 'Julius.png'
+    },
+    {
+        name: 'Match',
+        image: 'Match.png'
+    },
+    {
+        name: 'Match',
+        image: 'Match.png'
+    },
+    {
+        name: 'Meme',
+        image: 'Meme.png'
+    },
+    {
+        name: 'Meme',
+        image: 'Meme.png'
+    },
+    {
+        name: 'Reptar',
+        image: 'Reptar.png'
+    },
+    {
+        name:'Reptar',
+        image: 'Reptar.png'
+    },
+    {
+        name: 'Rock',
+        image: 'Rock.png'
+    },
+    {
+        name: 'Rock',
+        image: 'Rock.png'
+    },
+    {
+        name: 'Slice',
+        image: 'Slice.png'
+    },
+    {
+        name: 'Slice',
+        image: 'Slice.png'
+    },
+    {
+        name: 'Tommy',
+        image: 'Tommy.png'
+    }
 
-}
 
 
 ]
-})

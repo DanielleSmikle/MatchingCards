@@ -1,32 +1,27 @@
+* {
+    box-sizing: border-box;
+}
 
-.pageContainer{
+
+.pageContainer {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 15px;
     width: 800px;
     margin: 0 auto;
-
 }
 
-
-.gameGrid{
+.gameGrid {
     display: flex;
     flex-wrap: wrap; 
-    height: 650px;
+    height: 600px;
     width: 100%;
     border: 2px black;
-    background-color: blue;
-
 }
-
-* {
-    border: 1px solid gold;
-}
-
 
 body {
     margin: 0;
-    background: purple
+    background: radial-gradient(purple, pink) 
 }
 
 .gameTitle {
@@ -36,12 +31,15 @@ body {
     font-size: 75px;
 }
 
+.pageInfo {
+    color: lavender;
+    font-size: 25px;
+}
+
+
+
 .pageInfoCont{
     grid-column: 1 /-1;
-}
-.pageInfo {
-    color: honeydew;
-    font-size: 25px;
 }
 
 
@@ -49,4 +47,7 @@ body {
     background-color: lavender;
     height: 150px;
     width: 100px;
+
 }
+
+
