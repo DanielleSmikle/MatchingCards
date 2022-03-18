@@ -85,8 +85,26 @@ const cardSelection = [
     {
         name: 'Tommy',
         image: 'Tommy.png'
+    },
+    {
+        name: 'Tommy',
+        image: 'Tommy.png'
     }
-
-
-
 ]
+cardsList.sort( () => 0.5 -math)
+//time for the board 
+
+const grid = document.querySelector('.grid');
+
+function makeBoard() {
+    for(let i =0; i< cardSelection.length; i++) {
+        let card = document.createElement('img')
+        card.setAttribute('src', 'Images/Backpic.png');
+
+        card.setAttribute('data-id', i);
+
+        grid.appendChild(card)
+
+
+    }
+}
