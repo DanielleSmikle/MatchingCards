@@ -99,3 +99,7 @@ img{
     color: yellow;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+.overlay-text.visible {
+    display: flex;
+}
