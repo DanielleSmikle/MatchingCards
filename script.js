@@ -128,4 +128,17 @@ class MixnMatch {           //a constructor helps you get a new obj. ita a funct
         this.timer = document.getElementById('timeRemaining');
         this.flipper = document.getElementById('flips');
     }
+
+    newGame(){
+        this.cardToCheck = null;    //looking for a card , but current card is sitting
+        this.totalFlips = 0;
+        this.timeRemaining = this.totalTime;
+        this.matchingCards = [];
+    
+        this.inUse = true;      //if a card in "inUse, you are looking to find a match, must wait for next selection "
+
+// card cant be fliped if - inUse=true, or card is matched / if card is sitting 
+    }
+
+
 }
