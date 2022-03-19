@@ -57,13 +57,22 @@ body {
 
 .card-face {
     position: absolute; 
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
+/* 
+.card.visible .card-back {
+    transform: rotate(-180deg)
+}
+
+.card.visible .card-front {
+    transform: rotateY(0)
+} */
 
 .backpic{
     height: 150px;
@@ -74,3 +83,5 @@ img{
     height: 150px;
     width: 100px;
 }
+
+
