@@ -3,7 +3,7 @@
 }
 
 
-.pageContainer {
+.gameContainer {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 15px;
@@ -11,11 +11,15 @@
     margin: 0 auto;
 }
 
-.gameGrid {
+.grid {
     display: flex;
     flex-wrap: wrap; 
     height: 600px;
-    width: 300%;
+    width: 100%;
+}
+
+html {
+    min-height: 100vh;
 }
 
 body {
@@ -30,23 +34,39 @@ body {
     font-size: 75px;
 }
 
-.pageInfo {
+.gameInfo {
     color: lavender;
     font-size: 25px;
 }
 
 
 
-.pageInfoCont{
+.gameInfoCont{
     grid-column: 1 /-1;
 }
 
 
-.cards {
+.card {
     background-color: lavender;
     height: 150px;
     width: 100px;
+    position: relative;
 
 }
 
 
+.card-face {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.backpic{
+    height: 150px;
+    width: 100px;
+    size: absolute;
+}
