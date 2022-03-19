@@ -120,6 +120,10 @@
 //I have left all my code as is, I did not want to delete anything, eventhough these are two different methds.  .. I NEED HELP 
 
 
+function newGame () {
+    let game = new MixnMatch (105, cards);
+}
+
 class MixnMatch {           //a constructor helps you get a new obj. ita a function 
     constructor(totalTime, cards) {
         this.cardsArray = cards;
@@ -139,6 +143,8 @@ class MixnMatch {           //a constructor helps you get a new obj. ita a funct
 
 // card cant be fliped if - inUse=true, or card is matched / if card is sitting 
     }
-
+canCardFlip(card) {
+    return !this.inUse && !this.matchingCards.includes(card) && card !== this.cardToCheck; 
+}
 
 }
