@@ -116,6 +116,16 @@
 
 // console.log(makeBoard()) 
 
-
 // nothing that i do will make my images load in! i have tried the array method, i also tried putting into my html file.. the image does load, but it is not fitting the size of my card. Maybe i am not sizing soemthing correctly? But i cannt move on to my next step without this..
 //I have left all my code as is, I did not want to delete anything, eventhough these are two different methds.  .. I NEED HELP 
+
+
+class MixnMatch {           //a constructor helps you get a new obj. ita a function 
+    constructor(totalTime, cards) {
+        this.cardsArray = cards;
+        this.totalTime = totalTime;
+        this.timeRemaining = totalTime
+        this.timer = document.getElementById('timeRemaining');
+        this.flipper = document.getElementById('flips');
+    }
+}
