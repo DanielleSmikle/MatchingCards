@@ -2,7 +2,7 @@
 //     const cardArray = [
 //         {
 //             name: 'back',
-//         image: 'image/backpic.png'
+//             image: <img
 //         },
 //         {
 //             name: 'back',
@@ -17,8 +17,8 @@
 //             image: 'image/barney.png'
 //         },
 //         {
-//             name: 'hotdog',
-//             image: 'image/hotdog.png'
+//             name: 'pat',
+//             image: 'image/pat.png'
 //         },
 //         {
 //             name: 'hotdog',
@@ -83,6 +83,11 @@
         
 //     ]
 
+// const imgArray;
+// function initialize (){
+//     imgArray [imagenNum++] = new imageItem(imageadIR + "backpic");
+// }
+//     imgArray = [ new imageItem( imageDir + "")]
 
 //     cardArray.sort(() => 0.5 = Math.random()) 
 //     const grid = document.querySelector('.grid')
@@ -119,34 +124,51 @@
 // nothing that i do will make my images load in! i have tried the array method, i also tried putting into my html file.. the image does load, but it is not fitting the size of my card. Maybe i am not sizing soemthing correctly? But i cannt move on to my next step without this..
 //I have left all my code as is, I did not want to delete anything, eventhough these are two different methds.  .. I NEED HELP 
 
+// if(document.readyState === 'loading') {
+//     document.addEventListener('DOMContentLoaded', ready ());
+// } else{
+//     ready();
+// }
+// function ready () {
+//     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
+//     let cards = Array.from(document.getElementsByClassName('card'));
 
-function newGame () {
-    let game = new MixnMatch (105, cards);
-}
+// overlays.forEach(overlay => {
+//     overlay.addEventListener('click', () => {
+//         overlay.classList.remove('visible');
+//     });
+// });
+// }
 
-class MixnMatch {           //a constructor helps you get a new obj. ita a function 
-    constructor(totalTime, cards) {
-        this.cardsArray = cards;
-        this.totalTime = totalTime;
-        this.timeRemaining = totalTime
-        this.timer = document.getElementById('timeRemaining');
-        this.flipper = document.getElementById('flips');
-    }
 
-    newGame(){
-        this.cardToCheck = null;    //looking for a card , but current card is sitting
-        this.totalClicks = 0;
-        this.timeRemaining = this.totalTime;
-        this.matchingCards = [];
+
+// function newGame () {
+//     let game = new MixnMatch (105, cards);
+// }
+
+// class MixnMatch {           //a constructor helps you get a new obj. ita a function 
+//     constructor(totalTime, cards) {
+//         this.cardsArray = cards;
+//         this.totalTime = totalTime;
+//         this.timeRemaining = totalTime
+//         this.timer = document.getElementById('timeRemaining');
+//         this.flipper = document.getElementById('flips');
+//     }
+
+//     newGame(){
+//         this.cardToCheck = null;    //looking for a card , but current card is sitting
+//         this.totalClicks = 0;
+//         this.timeRemaining = this.totalTime;
+//         this.matchingCards = [];
     
-        this.inUse = true;      //if a card in "inUse, you are looking to find a match, must wait for next selection "
+//         this.inUse = true;      //if a card in "inUse, you are looking to find a match, must wait for next selection "
 
-// card cant be fliped if - inUse=true, or card is matched / if card is sitting 
-    }
-canCardFlip(card) {
-    return !this.inUse && !this.matchingCards.includes(card) && card !== this.cardToCheck; 
-    }
-}
+// // card cant be fliped if - inUse=true, or card is matched / if card is sitting 
+    // }
+// canCardFlip(card) {
+//     return !this.inUse && !this.matchingCards.includes(card) && card !== this.cardToCheck; 
+//     }
+// }
 
 // cardFlip(card) {
 //     if (this.canCardFlip(card)) {
@@ -155,3 +177,6 @@ canCardFlip(card) {
 
     // }    //this doesnt work yet , i think the game needs a startign indicator
 // }
+
+// console.log ("this is showing up")
+
