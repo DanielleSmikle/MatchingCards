@@ -135,7 +135,7 @@ class MixnMatch {           //a constructor helps you get a new obj. ita a funct
 
     newGame(){
         this.cardToCheck = null;    //looking for a card , but current card is sitting
-        this.totalFlips = 0;
+        this.totalClicks = 0;
         this.timeRemaining = this.totalTime;
         this.matchingCards = [];
     
@@ -145,6 +145,13 @@ class MixnMatch {           //a constructor helps you get a new obj. ita a funct
     }
 canCardFlip(card) {
     return !this.inUse && !this.matchingCards.includes(card) && card !== this.cardToCheck; 
+    }
 }
 
-}
+// cardFlip(card) {
+//     if (this.canCardFlip(card)) {
+//         this.totalClicks++;
+//         this.flipper.innerText = this.totalClicks;
+
+    // }    //this doesnt work yet , i think the game needs a startign indicator
+// }
