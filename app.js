@@ -26,12 +26,29 @@ card1.addEventListener("click",function(event){
     }
 
 }
+    if (choice1 == choice2){
+        points+=2
+
+    }
     card1.firstElementChild.classList.toggle("hidden")
     card1.lastElementChild.classList.toggle("hidden")
 })
 card2.addEventListener("click",function(event){
     card2.firstElementChild.classList.toggle("hidden")
     card2.lastElementChild.classList.toggle("hidden")
+
+    if (choice1 ==''){
+        choice1='barney'
+    } else {
+    if (choice2 ==''){
+        choice2= 'barney'
+    }
+}
+    if (choice1 == choice2){
+    points+=2
+
+}
+console.log(points)
 })
 card3.addEventListener("click",function(event){
     card3.firstElementChild.classList.toggle("hidden")

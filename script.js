@@ -153,7 +153,7 @@
 //         this.timeRemaining = totalTime
 //         this.timer = document.getElementById('timeRemaining');
 //         this.flipper = document.getElementById('flips');
-    }
+    // }
 
 //     newGame(){
 //         this.cardToCheck = null;    //looking for a card , but current card is sitting
