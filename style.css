@@ -86,6 +86,9 @@ img{
     width: 100px;
 }
 
+.hidden{
+    display: none;
+}
 /* .overlay-text {
     display: none;
     position: relative;
