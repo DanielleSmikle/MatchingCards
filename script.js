@@ -146,14 +146,14 @@
 //     let game = new MixnMatch (105, cards);
 // }
 
-// class MixnMatch {           //a constructor helps you get a new obj. ita a function 
+// class MixnMatch {           //a constructor helps you get a new obj. ita a function - total points instead
 //     constructor(totalTime, cards) {
 //         this.cardsArray = cards;
 //         this.totalTime = totalTime;
 //         this.timeRemaining = totalTime
 //         this.timer = document.getElementById('timeRemaining');
 //         this.flipper = document.getElementById('flips');
-//     }
+    }
 
 //     newGame(){
 //         this.cardToCheck = null;    //looking for a card , but current card is sitting

@@ -86,7 +86,7 @@ img{
     width: 100px;
 }
 
-.overlay-text {
+/* .overlay-text {
     display: none;
     position: relative;
     top: 0;
@@ -102,4 +102,4 @@ img{
 
 .overlay-text.visible {
     display: flex;
-}
+} */
