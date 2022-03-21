@@ -12,8 +12,8 @@ const card10 = document.getElementById('card10')
 const card11 = document.getElementById('card11')
 const card12 = document.getElementById('card12')
 
-let choice1=''
-let choice2=''
+let choice1, choice3=''
+let choice2, choice4=''
 let points= 0
 
 card1.addEventListener("click",function(event){
@@ -50,7 +50,24 @@ card2.addEventListener("click",function(event){
 }
 console.log(points)
 })
+
+
+
+
 card3.addEventListener("click",function(event){
+    if (choice3 ==''){
+        choice3='hotdog'
+    } else {
+    if (choice4 ==''){
+        choice4= 'hotdog'
+
+    }
+
+}
+    if (choice3 == choice4){
+        points+=2
+
+    }
     card3.firstElementChild.classList.toggle("hidden")
     card3.lastElementChild.classList.toggle("hidden")
 })
@@ -58,7 +75,23 @@ card3.addEventListener("click",function(event){
 card4.addEventListener("click",function(event){
     card4.firstElementChild.classList.toggle("hidden")
     card4.lastElementChild.classList.toggle("hidden")
+
+    if (choice3 ==''){
+        choice3='hotdog'
+    } else {
+    if (choice4 ==''){
+        choice4= 'hodog'
+    }
+}
+    if (choice3 == choice4){
+    points+=2
+
+}
+console.log(points)
 })
+
+
+
 card5.addEventListener("click",function(event){
     card5.firstElementChild.classList.toggle("hidden")
     card5.lastElementChild.classList.toggle("hidden")
