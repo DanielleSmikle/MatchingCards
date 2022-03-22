@@ -18,7 +18,10 @@ let choice5, choice6=''
 let choice7, choice8=''
 let choice9, choice10=''
 let choice11, choice12=''
-let points= 0
+let points=0
+
+
+
 
 card1.addEventListener("click",function(event){
     if (choice1 ==''){
@@ -57,9 +60,6 @@ card2.addEventListener("click",function(event){
 console.log(points)
 })
 
-
-
-
 card3.addEventListener("click",function(event){
     if (choice3 ==''){
         choice3='hotdog'
@@ -71,7 +71,7 @@ card3.addEventListener("click",function(event){
 
 }
     if (choice3 == choice4){
-        points+=2
+        points+= points+2
 
     }
     card3.firstElementChild.classList.toggle("hidden")
@@ -90,7 +90,7 @@ card4.addEventListener("click",function(event){
     }
 }
     if (choice3 == choice4){
-    points+=2
+    points+= points+2
 
 }
 console.log(points)
@@ -108,7 +108,7 @@ card5.addEventListener("click",function(event){
 
 }
     if (choice5 == choice6){
-        points+=2
+        points+= points+2
 
     }
    
@@ -132,7 +132,7 @@ card6.addEventListener("click",function(event){
     }
 }
     if (choice5 == choice6){
-    points+=2
+    points+= points+2
 
 }
 console.log(points)
@@ -149,7 +149,7 @@ card7.addEventListener("click",function(event){
 
 }
     if (choice7 == choice8){
-        points+=2
+        points+= points+2
 
     }
     card7.firstElementChild.classList.toggle("hidden")
@@ -167,7 +167,7 @@ card8.addEventListener("click",function(event){
     }
 }
     if (choice7 == choice8){
-    points+=2
+    points+= points+2
 
 }
 console.log(points)
@@ -184,7 +184,7 @@ card9.addEventListener("click",function(event){
 
 }
     if (choice9 == choice10){
-        points+=2
+        points+= points+2
 
     }
     card9.firstElementChild.classList.toggle("hidden")
@@ -204,7 +204,7 @@ card10.addEventListener("click",function(event){
     points+=2
 
 }
-console.log(points)
+console.log(points+2)
 })
 
 card11.addEventListener("click",function(event){
@@ -218,7 +218,7 @@ card11.addEventListener("click",function(event){
 
 }
     if (choice11 == choice12){
-        points+=2
+        points+=points+2
 
     }
     card11.firstElementChild.classList.toggle("hidden")
@@ -235,9 +235,9 @@ card12.addEventListener("click",function(event){
     }
 }
     if (choice11 == choice12){
-    points+=2
+    points+= points+2
 
 }
-console.log(points)
+console.log(points+2)
 })
 
