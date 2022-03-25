@@ -15,21 +15,26 @@ const card12 = document.getElementById('card12')
 const result = document.getElementById('result')
 
 
-// function checkWin() {
-//     if(points > 25);
-//     alert "WINNER";
-// }
-//console.log()
+function checkWin() {
+    if(points > 11);
+    alert("WINNER");
+}
 
-let choice1, choice3 = ''
-let choice2, choice4 = ''
-let choice5, choice6 = ''
-let choice7, choice8 = ''
-let choice9, choice10 = ''
-let choice11, choice12 = ''
+
+let choice1 = ''
+let choice2 = ''
+let choice3 = ''
+let choice4 = ''
+let choice5 = ''
+let choice6 = ''
+let choice7 = ''
+let choice8 = ''
+let choice9 = ''
+let choice10 = ''
+let choice11 = ''
+let choice12 = ''
 
 let points = 0
-
 
 console.log(points)
 
@@ -52,9 +57,7 @@ card1.addEventListener("click", function (event) {
     card1.firstElementChild.classList.toggle("hidden")
     card1.lastElementChild.classList.toggle("hidden")
 
-    console.log(points)
-
-    
+    console.log(points)    
 })
 
 
@@ -116,7 +119,6 @@ card4.addEventListener("click", function (event) {
 
     }
     console.log(points)
-
 })
 
 card5.addEventListener("click", function (event) {
@@ -131,15 +133,14 @@ card5.addEventListener("click", function (event) {
     }
     if (choice5 == choice6) {
         points += 2
-        result.innerText=points
-        
+        result.innerText=points 
+
 
     }
-
     card5.firstElementChild.classList.toggle("hidden")
     card5.lastElementChild.classList.toggle("hidden")
 
-    console.log(points)
+    console.log(points)    
 })
 
 card6.addEventListener("click", function (event) {
@@ -158,9 +159,7 @@ card6.addEventListener("click", function (event) {
         result.innerText=points
 
     }
-
     console.log(points)
-
 })
 
 card7.addEventListener("click", function (event) {
@@ -263,6 +262,7 @@ card11.addEventListener("click", function (event) {
 
     console.log(points)
 })
+
 card12.addEventListener("click", function (event) {
     card12.firstElementChild.classList.toggle("hidden")
     card12.lastElementChild.classList.toggle("hidden")
