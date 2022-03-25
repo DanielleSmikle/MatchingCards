@@ -1,86 +1,90 @@
 // document.addEventListener('DOMContent', () => {  
-//     const cardArray = [
-//         {
-//             name: 'back',
-//             image: <img
-//         },
-//         {
-//             name: 'back',
-//             image: 'image/backpic.png'
-//         },
-//         {
-//             name: 'barney',
-//             image: 'image/barney.png'
-//         },
-//         {
-//             name: 'barney',
-//             image: 'image/barney.png'
-//         },
-//         {
-//             name: 'pat',
-//             image: 'image/pat.png'
-//         },
-//         {
-//             name: 'hotdog',
-//             image: 'image/hotdog.png'
-//         },
-//         {
-//             name: 'julius',
-//             image: 'image/julius.png'
-//         },
-//         {
-//             name: 'julius',
-//             image: 'image/julius.png'
-//         },
-//         {
-//             name: 'match',
-//             image: 'image/match.png'
-//         },
-//         {
-//             name: 'match',
-//             image: 'image/match.png'
-//         },
-//         {
-//             name: 'meme',
-//             image: 'image/meme.png'
-//         },
-//         {
-//             name: 'meme',
-//             image: 'image/meme.png'
-//         },
-//         {
-//             name: 'reptar',
-//             image: 'image/reptar.png'
-//         },
-//         {
-//             name: 'reptar',
-//             image: 'image/reptar.png'
-//         },
-//         {
-//             name: 'rock',
-//             image: 'image/rock.png'
-//         },
-//         {
-//             name: 'rock',
-//             image: 'image/rock.png'
-//         },
-//         {
-//             name: 'slice',
-//             image: 'image/slice.png'
-//         },
-//         {
-//             name: 'slice',
-//             image: 'image/slice.png'
-//         },
-//         {
-//             name: 'tommy',
-//             image: 'image/tommy.png'
-//         },
-//         {
-//             name: 'tommy',
-//             image: 'image/tommy.png'
-//         },
+    const cardArray = [
+        {
+            name: 'barney',
+            image: 'image/barney.png'
+        },
+        {
+            name: 'barney',
+            image: "image/barney.png"
+        },
+        {
+            name: 'hotdog',
+            image: 'image/hotdog.png'
+        },
+        {
+            name: 'hotdog',
+            image: 'image/hotdog.png'
+        },
+        {
+            name: 'julius',
+            image: 'image/julius.png'
+        },
+        {
+            name: 'julius',
+            image: 'image/julius.png'
+        },
+        {
+            name: 'pat',
+            image: 'image/pat.png'
+        },
+        {
+            name: 'pat',
+            image: 'image/pat.png'
+        },
         
+        {
+            name: 'meme',
+            image: 'image/meme.png'
+        },
+        {
+            name: 'meme',
+            image: 'image/meme.png'
+        },
+        {
+            name: 'snoop',
+            image: 'image/snoop.png'
+        },
+        { 
+            name: 'snoop',
+            image: 'image/snoop.png'
+        }
+    ]
+
+    function render () {
+        console.log(cardArray)
+        for (let i=0; i<= cardArray.length; i++){
+            let img = document.createElement("img") 
+            img.src = cardArray[i].image 
+            document.querySelector(".gameContainer").appendChild(img)
+        }
+    }
+    render()
+
+
+       
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //     ]
 
 // const imgArray;
@@ -179,4 +183,3 @@
 // }
 
 // console.log ("this is showing up")
-
