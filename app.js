@@ -16,7 +16,7 @@ const result = document.getElementById('result')
 
 
 function checkWin() {
-    if(points > 11);
+    if(points > 11)
     alert("WINNER");
 }
 
@@ -57,6 +57,7 @@ card1.addEventListener("click", function (event) {
     card1.firstElementChild.classList.toggle("hidden")
     card1.lastElementChild.classList.toggle("hidden")
 
+    checkWin()
     console.log(points)    
 })
 
@@ -75,8 +76,10 @@ card2.addEventListener("click", function (event) {
     if (choice1 == choice2) {
         points += 2
         result.innerText=points
+        
 
     }
+    checkWin()
     console.log(points)
 })
 
@@ -93,11 +96,14 @@ card3.addEventListener("click", function (event) {
     if (choice3 == choice4) {
         points += 2
         result.innerText=points
+        
 
     }
     
     card3.firstElementChild.classList.toggle("hidden")
     card3.lastElementChild.classList.toggle("hidden")
+
+    checkWin()
 
     console.log(points)
 })
@@ -118,6 +124,7 @@ card4.addEventListener("click", function (event) {
         result.innerText=points
 
     }
+    checkWin()
     console.log(points)
 })
 
@@ -140,6 +147,8 @@ card5.addEventListener("click", function (event) {
     card5.firstElementChild.classList.toggle("hidden")
     card5.lastElementChild.classList.toggle("hidden")
 
+    checkWin()
+
     console.log(points)    
 })
 
@@ -159,6 +168,7 @@ card6.addEventListener("click", function (event) {
         result.innerText=points
 
     }
+    checkWin()
     console.log(points)
 })
 
@@ -199,6 +209,8 @@ card8.addEventListener("click", function (event) {
 
     }
 
+    checkWin()
+
     console.log(points)
 
 })
@@ -221,6 +233,8 @@ card9.addEventListener("click", function (event) {
     card9.firstElementChild.classList.toggle("hidden")
     card9.lastElementChild.classList.toggle("hidden")
 
+    checkWin()
+
     console.log(points)
 })
 card10.addEventListener("click", function (event) {
@@ -238,6 +252,7 @@ card10.addEventListener("click", function (event) {
         result.innerText=points
 
     }
+    checkWin()
     console.log(points)
 
 })
@@ -260,6 +275,8 @@ card11.addEventListener("click", function (event) {
     card11.firstElementChild.classList.toggle("hidden")
     card11.lastElementChild.classList.toggle("hidden")
 
+    checkWin()
+
     console.log(points)
 })
 
@@ -278,6 +295,7 @@ card12.addEventListener("click", function (event) {
         result.innerText=points
 
     }
+    checkWin()
     console.log(points)
 
 })
