@@ -32,3 +32,5 @@ Players will eventually need a click to start and replay option.
 A possible timer would make the game more interesting. 
 The code used to create the game coudl have been more condensed ie; using functions 
 
+# Site Map
+https://daniellesmikle.github.io/MatchingCards/
