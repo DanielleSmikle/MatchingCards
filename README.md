@@ -30,4 +30,5 @@ Over the course of creating this game I came across many hurdles.
 Cards are currently not able to randomize at the end of the game, and point values are not all equal. 
 Players will eventually need a click to start and replay option. 
 A possible timer would make the game more interesting. 
+The code used to create the game coudl have been more condensed ie; using functions 
 
