@@ -7,10 +7,6 @@ Matching Cards is a memory game, or game of concentration in where all of the ca
 - flip over one card at a time, and only 2 cards can be turned over at any given time. 
 - if card pair is not a match, players must flip both cards, facing down, and try to find a matching pair again. 
 
-## Solution 
-Matching Cards can be a timed game, and cards all card pairs must be found by the expiration of the clock. The less correct moves, will result in a faster completion of the game.
-
-
 <img width="978" alt="Mix N' Match " src="https://user-images.githubusercontent.com/98438184/159110451-26b28df8-afec-4a41-b9e4-103347a84ef6.png">
 
 ## Code Style
@@ -19,7 +15,7 @@ Matching Cards can be a timed game, and cards all card pairs must be found by th
 -CSS
 
 ## Playing The Game 
-To start, user will click the start game option and being clicking faced down cards to reveal the image underneath. Once the first click is made, the clock will begin to count down. User must reveal all matching pair before the expiration of the clock. 
+Users will start by clicking on a faced down card to reveal the hidden image. Once image has found its match, points will be collected until player reaches the total number of 12! 
 
 ## Wire Frames
 <img width="514" alt="Wire Frame" src="https://user-images.githubusercontent.com/98438184/159110829-cf9fd9b0-7541-4901-888b-17a2f7acffd6.png">
@@ -28,5 +24,10 @@ To start, user will click the start game option and being clicking faced down ca
 Over the course of creating this game I came across many hurdles. 
 - Creating cards that presented themselves in a grid. 
 - Being able to have the cards appear as if they are flipping to reveal the images under. 
-- Creating the JSS, to complete all of the necessary functions such as functionality of the cards, timer, and flip count. 
-- Creating an option for the user to be able to have another turn at the game. 
+- Creating the JSS, to complete all of the necessary functions such as functionality of the cards and point increase.
+
+# Known Bugs and What's to Come?
+Cards are currently not able to randomize at the end of the game, and point values are not all equal. 
+Players will eventually need a click to start and replay option. 
+A possible timer would make the game more interesting. 
+
